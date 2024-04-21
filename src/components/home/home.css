@@ -1,0 +1,238 @@
+.bod { 
+    background-color: grey; 
+    width: 100%; 
+    height: auto; 
+} 
+.side { 
+    background: linear-gradient(90deg, rgb(0, 3, 39) 0%, #ffffff 100%); 
+    align-items: center; 
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(0deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    width: 80px; 
+    border-color: 2px solid #007BFF; 
+    height: 550px; 
+    border-bottom-right-radius: 30px; 
+    border-top-right-radius: 30px; 
+    /* position: fixed;  */
+    transition: 1s; 
+} 
+ 
+.side:hover { 
+    color: #003E80; 
+ 
+} 
+ 
+.brd { 
+    background-color: #001F40; 
+    width: 65px; 
+    color: aliceblue; 
+    height: 40px; 
+    text-align: center; 
+    border: 1px solid #001F40;
+    border-radius: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+} 
+.btm{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: 3px solid #001F40;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btm:hover { 
+    background-color: #83b9f1; 
+    box-shadow: 0 0 20px #003E80; 
+} 
+.brd:hover { 
+    background-color: #003E80; 
+    box-shadow: 0 0 20px #003E80; 
+} 
+ 
+.body { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+} 
+.sections { 
+    margin-left: 100px;
+    width: 80%; 
+    padding: 20px; 
+    margin-top: 20px; 
+    /* margin-left: 100px;  */
+    height: auto; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(90deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    border-radius: 50px; 
+} 
+.Card p { 
+    align-items: center; 
+} 
+ 
+.Card { 
+    justify-content: center; 
+    align-content: center; 
+    border-radius: 20px; 
+    margin: 10px; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(0deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 30px; 
+    box-shadow: #003E80; 
+    transition: background 0.5s ease; 
+} 
+ 
+.Card:hover { 
+    background: #003E80; 
+} 
+ 
+ 
+.SmallCard { 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(180deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    justify-content: center; 
+    align-content: center; 
+    width: 100px; 
+    height: 150px; 
+    border-radius: 30px; 
+    box-shadow: #003E80; 
+    transition: background 0.5s ease; 
+} 
+ 
+.SmallCard:hover { 
+    background: #003E80; 
+} 
+ 
+.SmallCard p{ 
+    align-self: center; 
+} 
+.row { 
+    width: 100%; 
+    display: flex; 
+    padding: 10px; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    /* justify-content:space-between ; */ 
+} 
+ 
+.row2 { 
+    width: 100%; 
+    height: 100vh; 
+    /* background-color: rgb(192, 136, 136); */ 
+    display: flex; 
+    flex-direction: row; 
+    background-image: url(../sky.jpg); 
+} 
+ 
+#ss { 
+    background-color: #404040; 
+    width: 100%; 
+    height: 1000px; 
+} 
+ 
+.column { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    background-color: black; 
+    width: 100%; 
+} 
+ 
+/* .drd{ 
+    background-color: chartreuse; 
+    width: 400px; 
+    height: 400px; 
+} */ 
+ 
+.columns { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+} 
+ 
+.rows { 
+    display: flex; 
+    /* margin: 10px; */ 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+} 
+ 
+.search { 
+    border-radius: 20px; 
+    border: 1px solid black; 
+    width: 570px; 
+    height: 40px; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(90deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    margin-top: 50px; 
+    margin-left: 100px; 
+    padding-left: 30px; 
+    font-size: 18px; 
+} 
+ 
+.box { 
+    width: 600px; 
+    height: 200px; 
+    border-radius: 20px; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(90deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    margin-top: 20px; 
+    margin-left: 100px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+ 
+.play { 
+    width: 200px; 
+    height: 250px; 
+    margin-top: 50px; 
+    border-radius: 20px; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(0deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+}
+.TopSongs{
+    padding: 10px; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #001F40;
+    color: #ffffff;
+}
+.ArtistTotal{
+    background-color: #001F40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+.hii{
+    width: 570px; 
+    height: 40px; 
+    background: rgb(204, 204, 204); 
+    background: linear-gradient(0deg, rgba(204, 204, 204, 1) 0%, #003E80 100%); 
+    border-radius: 30px;
+    color: #ffffff;
+}
+.man{
+background-color: #003E80;
+color: #ffffff;
+
+}
+.padbar{
+    color: #ffffff;
+}
